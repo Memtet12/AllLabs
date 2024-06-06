@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Введите выражение&#xD;&#xA;" HorizontalAlignment="Left" Margin="248,25,0,0" VerticalAlignment="Top" Height="27"/>
+        <TextBox x:Name="tBoxOutput" HorizontalAlignment="Left" Margin="248,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tBoxInput" HorizontalAlignment="Left" Margin="248,66,0,0" TextWrapping="Wrap" Text="1+2+3" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Результат" HorizontalAlignment="Left" Margin="181,95,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnCalculate" Content="Посчитать" HorizontalAlignment="Left" Margin="248,133,0,0" VerticalAlignment="Top" Width="121" Click="btnCalculate_Click"/>
+        <Label x:Name="lbX" Content="Переменная x" HorizontalAlignment="Left" Margin="439,26,0,0" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="txBoxVariable" HorizontalAlignment="Left" Margin="439,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="0" TextAlignment="Center"/>
+
+    </Grid>
+</Window>
